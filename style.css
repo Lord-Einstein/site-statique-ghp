@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+    transition: background-color 1s;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 200px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: solid 1px black;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    transition: ease 500ms;
+}
+button:hover{
+    letter-spacing: 8px;
+}
