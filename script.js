@@ -1,4 +1,4 @@
-document.body.style.backgroundColor = 'cyan';
+document.body.style.backgroundColor = 'black';
 
 document.getElementById('Color1').addEventListener('click', function(){
     document.body.style.backgroundColor = 'gray';
