@@ -5,6 +5,6 @@ document.getElementById('Color1').addEventListener('click', function(){
 })
 
 document.getElementById('Color2').addEventListener('click', function(){
-    document.body.style.backgroundColor = 'red';
+    document.body.style.backgroundColor = 'green';
 })
 
